@@ -1,0 +1,32 @@
+.calendar-day {
+    display: flex;
+    flex-direction: column;
+    width: 75px;
+    height: 75px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 1vh;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0);
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.other-month-day {
+    background-color: rgb(141, 141, 141);
+}
+
+.calendar-day:hover {
+    scale: 110%;
+}
+
+.monthDay {
+    font-size: 3em;
+    color: black;
+}
+
+.weekDay {
+    font-size: 1.2em;
+    color: rgb(22, 22, 22);
+}

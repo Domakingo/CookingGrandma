@@ -1,0 +1,22 @@
+.reservations-calendar {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    max-width: 1200px;
+}
+
+.calendarControls {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: 10px;
+    gap: 10px;
+}
+
+button {
+    margin: 5px;
+    width: 110px;
+}
+
+button:hover {
+    border-color: white;
+}
