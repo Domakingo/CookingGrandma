@@ -1,4 +1,5 @@
 .calendar-day {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 75px;
@@ -29,4 +30,14 @@
 .weekDay {
     font-size: 1.2em;
     color: rgb(22, 22, 22);
+}
+
+.news {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 15px;
+    height: 15px;
+    background-color: lightgreen;
+    border-radius: 100%;
 }
