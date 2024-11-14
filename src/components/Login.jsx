@@ -9,7 +9,7 @@ function Login() {
     const handleSubmit = async (event) => {
         event.preventDefault();
         try {
-            await axios.post('https://zac.hackclub.com/api/login', { email, password });
+            await axios.post('https://zac.hackclub.app/api/login', { email, password });
             window.location.href = '/dashboard';
         } catch (err) {
             alert('Login failed');

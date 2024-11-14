@@ -10,7 +10,7 @@ function Register() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('https://zac.hackclub.com/api/register', { name, email, password});
+            await axios.post('https://zac.hackclub.app/api/register', { name, email, password});
             alert('Registration successful!');
         } catch (err) {
             alert('Registration failed');
