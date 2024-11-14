@@ -8,7 +8,7 @@ function Dashboard() {
     useEffect(() => {
         const fetchGroups = async () => {
             try {
-                const response = await axios.get('http://zac.hackclub.app/api/user/groups');
+                const response = await axios.get('https://zac.hackclub.app/api/user/groups');
                 setGroups(response.data);
             } catch (err) {
                 alert('Failed to fetch groups');
